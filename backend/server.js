@@ -6,7 +6,7 @@ const cors = require('cors');
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://frontend-rmkxhqdss-yottas-projects.vercel.app/',
     methods: ['GET', 'POST'], // Add other HTTP methods as needed
     optionsSuccessStatus: 200 // Some legacy browsers choke on 204
   };

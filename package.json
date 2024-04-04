@@ -1,24 +1,17 @@
 {
-    "name": "Basic-React",
-    "version": "1.0.0",
-    "scripts": {
-      "install-client": "cd frontend && npm install",
-      "install-server": "cd backend && npm install",
-      "build-client": "cd frontend && npm run build",
-      "start": "node backend/index.js",
-      "heroku-postbuild": "npm run install-client && npm run install-server && npm run build-client"
-    },
-    "dependencies": {
-        "cors": "^2.8.5",
-        "express": "^4.19.2",
-        "nodemailer": "^6.9.13",
-        "@testing-library/jest-dom": "^5.17.0",
-        "@testing-library/react": "^13.4.0",
-        "@testing-library/user-event": "^13.5.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-scripts": "5.0.1",
-        "web-vitals": "^2.1.4"
-    }
-  }
-  
+  "name": "manjeet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node server.js",
+    "install-client": "cd frontend && npm install",
+    "build-client": "cd frontend && npm run build",
+    "start-client": "cd frontend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

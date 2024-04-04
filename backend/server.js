@@ -6,10 +6,11 @@ const cors = require('cors');
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-    origin: 'https://frontend-rmkxhqdss-yottas-projects.vercel.app',
+    origin: ['https://frontend-rmkxhqdss-yottas-projects.vercel.app','https://manjeetdost.vercel.app','http://localhost:3000'],
     methods: ['GET', 'POST'], // Add other HTTP methods as needed
     optionsSuccessStatus: 200 // Some legacy browsers choke on 204
   };
+  
   
   app.use(cors(corsOptions));
   
